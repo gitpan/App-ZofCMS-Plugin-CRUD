@@ -1,0 +1,24 @@
+{
+    body => \'index.tmpl',
+    title => '',
+
+    plugins => [
+        qw/CRUD/,
+    ],
+
+    plug_crud => {
+        dsn     => 'DBI:mysql:database=zofdb;host=localhost',
+        user    => 'zoffix',
+        pass    => 'zofpass',
+        opt     => { RaiseError => 1, AutoCommit => 1, mysql_enable_utf8 => 1, },
+
+        table => 'information_packages',
+
+        items => [
+            'item',
+            { decription => 'textarea' },
+            { file       => 'file'     },
+        ],
+    },
+}
+

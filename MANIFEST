@@ -1,0 +1,14 @@
+Build.PL
+Changes
+lib/App/ZofCMS/Plugin/CRUD.pm
+MANIFEST			This list of files
+README
+LICENSE
+examples/index.tmpl
+t/00-load.t
+t/01-plugin.t
+t/pod-coverage.t
+t/pod.t
+Makefile.PL
+META.yml
+META.json
