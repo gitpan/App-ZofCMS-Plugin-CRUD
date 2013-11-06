@@ -1,9 +1,8 @@
-use Test::More tests => 3;
+use Test::More tests => 6;
 
 BEGIN {
     use_ok('Carp');
     use_ok('DBI');
-    use_ok('Carp');
     use_ok('HTML::Template');
     use_ok('File::Spec');
     use_ok('App::ZofCMS::Plugin::Base');

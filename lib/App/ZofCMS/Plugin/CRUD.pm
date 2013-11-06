@@ -2,7 +2,7 @@ package App::ZofCMS::Plugin::CRUD;
 
 use strict;
 use warnings;
-our $VERSION = '0.001';
+our $VERSION = '0.002';
 
 use DBI;
 use Carp;
@@ -502,6 +502,11 @@ sub _get_CU_form_template {
 </tmpl_unless>
 END_HTML
 }
+
+1;
+__END__
+
+=encoding utf8
 
 =head1 NAME
 

@@ -4,7 +4,7 @@
       "Zoffix Znet <zoffix@cpan.org>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.4007, CPAN::Meta::Converter version 2.132830",
+   "generated_by" : "Module::Build version 0.4008, CPAN::Meta::Converter version 2.132830",
    "license" : [
       "artistic_2"
    ],
@@ -27,10 +27,10 @@
       "runtime" : {
          "requires" : {
             "App::ZofCMS::Plugin::Base" : "0.0111",
-            "Carp" : "1.32",
-            "DBI" : "1.618",
-            "File::Spec" : "3.4",
-            "HTML::Template" : "2.9",
+            "Carp" : "0",
+            "DBI" : "0",
+            "File::Spec" : "0",
+            "HTML::Template" : "0",
             "perl" : "5.006"
          }
       }
@@ -38,7 +38,7 @@
    "provides" : {
       "App::ZofCMS::Plugin::CRUD" : {
          "file" : "lib/App/ZofCMS/Plugin/CRUD.pm",
-         "version" : "0.001"
+         "version" : "0.002"
       }
    },
    "release_status" : "stable",
@@ -47,5 +47,5 @@
          "http://www.perlfoundation.org/artistic_license_2_0"
       ]
    },
-   "version" : "0.001"
+   "version" : "0.002"
 }
